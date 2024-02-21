@@ -1,0 +1,150 @@
+body {
+    background-color: white;
+}
+
+.main__background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-image: url('../img/background_01.jpg');
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    z-index: -99999;
+}
+
+
+.container-wrapper {
+    padding: 0 70px 0 70px;
+}
+
+.header {
+    margin-top: 20px;
+    padding: 20px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header__logo {
+    width: 80px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+.nav-item {
+    margin-right: 20px;
+}
+.nav-link, .header__tel {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+.hero__title {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    margin-top: 130px;
+}
+
+.hero__title h1{
+    color: whitesmoke;
+    font-size: 3.5rem;
+}
+.hero__title h2{
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+.hero__title a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+
+.hero__btn {
+    margin-top: 30px;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: #dd5e15;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.offer {
+    margin-top: 80px;
+}
+
+.services__cards {
+    display: flex;
+    margin-top: -110px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.services__img {
+    max-width: 402px;
+}
+
+.services__item {
+    background-color: #005299;
+    height: 550px;
+    margin: 0;
+    padding: 0;
+}
+.services__item h3 {
+    padding: 0 10px 0 10px;
+    margin-top: 50px;
+    font-size: 1rem;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.services__item p {
+    padding: 0 10px 0 10px;
+    color: whitesmoke;
+    font-size: 0.7rem;
+    max-width: 320px;
+} 
+.spec-item {
+    margin: 0;
+    padding: 0;
+    height: 585px;
+    background-color: #50ABF9;
+}
+.carousel-image {
+    max-width: 620px;
+}
+
+.free__block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #51ACFB;
+    min-height: 60px;
+}
+
+.free__consultation {
+    color: whitesmoke;
+    font-size: 1.75rem;
+}
+
+.free__btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    min-width: 200px;
+}
