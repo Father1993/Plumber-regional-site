@@ -17,13 +17,13 @@ body {
     z-index: -99999;
 }
 
-
 .container-wrapper {
     padding: 0 70px 0 70px;
 }
 
 .header {
     margin-top: 20px;
+    margin: 20px 70px 0px 70px;
     padding: 20px;
     height: 90px;
     display: flex;
@@ -41,21 +41,25 @@ body {
     list-style: none;
     display: flex;
 }
+
 .nav-item {
     margin-right: 20px;
 }
+
 .nav-link, .header__tel {
     text-decoration: none;
     color: whitesmoke;
 }
+
 .hero {
     display: flex;
     justify-content: space-between;
 }
+
 .hero__title {
     display: flex;
     flex-direction: column;
-    max-width: 380px;
+    max-width: 490px;
     margin-top: 130px;
 }
 
@@ -63,10 +67,13 @@ body {
     color: whitesmoke;
     font-size: 3.5rem;
 }
+
 .hero__title h2{
     color: whitesmoke;
     font-size: 1.1rem;
+    width: 460px;
 }
+
 .hero__title a {
     color: whitesmoke;
     text-decoration: none;
@@ -83,9 +90,9 @@ body {
     border-radius: 5px;
 }
 
-
 .offer {
     margin-top: 80px;
+    margin-bottom: 70px;
 }
 
 .services__cards {
@@ -94,6 +101,7 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
+
 .services__img {
     max-width: 402px;
 }
@@ -104,6 +112,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .services__item h3 {
     padding: 0 10px 0 10px;
     margin-top: 50px;
@@ -118,12 +127,14 @@ body {
     font-size: 0.7rem;
     max-width: 320px;
 } 
+
 .spec-item {
     margin: 0;
     padding: 0;
     height: 585px;
     background-color: #50ABF9;
 }
+
 .carousel-image {
     max-width: 620px;
 }
@@ -133,7 +144,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     background-color: #51ACFB;
-    min-height: 60px;
+    min-height: 70px;
 }
 
 .free__consultation {
@@ -147,4 +158,137 @@ body {
     background-color: #FFFFFF;
     padding: 10px;
     min-width: 200px;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+.economic {
+    background-image: url('../img/background_02.jpg');
+    min-height: 837px;
+}
+
+.economic__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.economic__cards-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.economic__block h2 {
+    text-align: center;
+    color: whitesmoke;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 130px;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.economic__block h2 span {
+    color: #51ACFB;
+}
+
+.economic__card h5 {
+    padding: 5px 70px 5px 70px;
+    color: whitesmoke;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.economic__card p {
+    padding: 0 40px 0 40px;
+    color: whitesmoke;
+}
+
+.economic__card h5 span {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.special-offer {
+    margin-top: -130px;
+}
+
+.special-offer__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+}
+
+.special__card {
+    min-width: 320px;
+    min-height: 323px;
+}
+
+.card-one {
+    background-image: url('../img/inner_04.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-two {
+    background-image: url('../img/inner_05.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card-three {
+    background-image: url('../img/inner_06.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.special__card {
+    padding: 30px;
+}
+
+.special__card span, h6, p {
+    color: whitesmoke;
+}
+
+.special__card > span {
+    color: whitesmoke;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.special__card h6 {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-width: 320px;
+}
+
+.special__card p span{
+    color: #51ACFB;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 10px;
+    border: 1px solid #51ACFB;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.special__card p {
+    font-size: 2rem;
+}
+
+.special__btn {
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 0.7rem;
+    color: whitesmoke;
+    background-color: #dd5e15;
+    border: none;
+    border-radius: 5px;
 }
