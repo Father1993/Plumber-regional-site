@@ -351,6 +351,10 @@ body {
     margin-right: 30px;
 }
 
+.tips-trick {
+    background-image: url('../img/background_plumbing_03.jpg');
+}
+
 .tips-trick__wrapper {
     display: flex;
     justify-content: space-between;
@@ -380,7 +384,6 @@ body {
 }
 
 .experience {
-    margin-top: 100px;
     background-image: url('../img/background_03.jpg');
     min-height: 837px;
     margin-bottom: -100px;
@@ -444,7 +447,7 @@ body {
 
 .choose__left-block h6 {
     color: black;
-    font-size: 0.77rem;
+    font-size: 0.9rem;
 }
 
 .choose__left-block h3 {
@@ -492,5 +495,171 @@ body {
 }
 
 .team {
-    background-color: #F9F9F9;
+    background-image: url('../img/background_plumbing_02.jpg');
+}
+
+.team__title {
+    padding: 130px 0 0 0;
+    font-size: 2.7rem;
+    margin-bottom: 70px;
+}
+
+.team__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team__img {
+    max-width: 285px;
+}
+
+.team__info {
+    background-color: white;
+}
+
+.team__container {
+    padding-bottom: 50px;
+}
+
+.team__icon {
+    padding: 0 0 15px 15px;
+}
+
+.team__info-descr, .team__name {
+    padding: 15px 0 0 15px;
+
+}
+
+.team__info-descr {
+    color: grey;
+    font-weight: 400;
+}
+
+.team__icon svg {
+    margin-right: 10px;
+}
+
+.team__title span {
+    color: #51ACFB;
+}
+
+.tips-trick__container {
+    padding: 100px 0 100px 0;
+}
+
+.team__info span {
+    color: #51ACFB;
+}
+
+.company {
+    background-image: url('../img/background_01.jpg');
+    min-height: 817px;
+}
+
+.company__plus-block {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aside__contact {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.company__title {
+    padding-top: 150px;
+    color: whitesmoke;
+    display: block;
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.company__title span {
+    color: #51ACFB;
+}
+
+.company__descr {
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: whitesmoke;
+    margin-bottom: 130px;
+}
+
+.company__card-title, .company__card-descr {
+    color: whitesmoke;
+}
+
+.company__card-title {
+    font-size: 3.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aside__contact {
+    margin-top: -120px;
+}
+
+.aside__contact-card {
+    min-height: 260px;
+    width: 300px;
+    border: none;
+    background-color: #B7BEC4;
+    z-index: 9999;
+    
+}
+
+.aside-second {
+    background-color: #99A7B3;
+}
+
+.aside__contact-card svg {
+    margin-left: 30px;
+    margin-top: -35px;
+}
+
+.aside__contact-card h6 {
+    display: block;
+    margin-top: 20px;
+    padding: 0 0 0 30px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.aside__contact-card p, a {
+    padding: 0 0 0 30px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.aside__contact-card svg{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.aside-second p {
+    margin: 0;
+    padding: 0;
+    padding: 0 0 0 30px;
+}
+
+.aside__phone {
+    display: block;
+}
+
+.map {
+    margin-top: -150px;
+    z-index: -999;
+}
+
+
+footer {
+    background-color: #001E38;
 }
