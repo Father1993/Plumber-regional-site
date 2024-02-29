@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    font-family: 'Segoe UI', Courier, monospace;
 }
 
 .main__background {
@@ -46,9 +47,11 @@ body {
     margin-right: 20px;
 }
 
-.nav-link, .header__tel {
+.nav-link,
+.header__tel {
     text-decoration: none;
     color: whitesmoke;
+    font-size: 1.5rem;
 }
 
 .hero {
@@ -63,12 +66,12 @@ body {
     margin-top: 130px;
 }
 
-.hero__title h1{
+.hero__title h1 {
     color: whitesmoke;
     font-size: 3.5rem;
 }
 
-.hero__title h2{
+.hero__title h2 {
     color: whitesmoke;
     font-size: 1.1rem;
     width: 460px;
@@ -88,6 +91,11 @@ body {
     width: 200px;
     border: none;
     border-radius: 5px;
+}
+
+.hero__tel {
+    margin: 0;
+    padding: 0;
 }
 
 .offer {
@@ -116,7 +124,7 @@ body {
 .services__item h3 {
     padding: 0 10px 0 10px;
     margin-top: 50px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: whitesmoke;
     font-weight: bold;
 }
@@ -124,15 +132,15 @@ body {
 .services__item p {
     padding: 0 10px 0 10px;
     color: whitesmoke;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     max-width: 320px;
-} 
+}
 
 .spec-item {
     margin: 0;
     padding: 0;
     height: 585px;
-    background-color: #50ABF9;
+    background-color: #50abf9;
 }
 
 .carousel-image {
@@ -143,7 +151,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #51ACFB;
+    background-color: #51acfb;
     min-height: 70px;
 }
 
@@ -155,7 +163,7 @@ body {
 .free__btn {
     border: none;
     border-radius: 5px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 10px;
     min-width: 200px;
 }
@@ -193,7 +201,7 @@ body {
 }
 
 .economic__block h2 span {
-    color: #51ACFB;
+    color: #51acfb;
 }
 
 .economic__card h5 {
@@ -252,7 +260,9 @@ body {
     padding: 30px;
 }
 
-.special__card span, h6, p {
+.special__card span,
+h6,
+p {
     color: whitesmoke;
 }
 
@@ -269,12 +279,12 @@ body {
     min-width: 320px;
 }
 
-.special__card p span{
-    color: #51ACFB;
+.special__card p span {
+    color: #51acfb;
     font-size: 2rem;
     font-weight: bold;
     margin-right: 10px;
-    border: 1px solid #51ACFB;
+    border: 1px solid #51acfb;
     border-radius: 5px;
     padding: 5px;
 }
@@ -312,18 +322,18 @@ body {
     margin-right: 170px;
 }
 
-.what-block__left h6{
+.what-block__left h6 {
     color: black;
     font-size: 0.7rem;
 }
 
-.what-block__left h5{
+.what-block__left h5 {
     font-size: 1.6rem;
     font-weight: bold;
 }
 
 .what-block__left span {
-    color: #51ACFB;
+    color: #51acfb;
 }
 
 .right-card {
@@ -332,7 +342,8 @@ body {
     margin-bottom: 20px;
 }
 
-.right-card h6, p{
+.right-card h6,
+p {
     color: black;
 }
 
@@ -341,7 +352,7 @@ body {
     font-size: 0.9rem;
 }
 
-.right-card p{
+.right-card p {
     color: black;
     font-size: 0.8rem;
 }
@@ -380,7 +391,7 @@ body {
 }
 
 .faq__descr span {
-    color: #51ACFB;
+    color: #51acfb;
 }
 
 .experience {
@@ -400,17 +411,18 @@ body {
 }
 
 .experience__descr h4 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: whitesmoke;
     font-weight: bold;
 }
 
 .experience__descr h4 span {
-    color: #51ACFB;
+    color: #51acfb;
 }
 
 .experience__descr h6 {
     margin-bottom: 100px;
+    font-size: 2rem;
 }
 
 .experience__firm {
@@ -456,7 +468,7 @@ body {
 }
 
 .choose__left-block h3 span {
-    color: #51ACFB;
+    color: #51acfb;
 }
 
 .left-block__descr {
@@ -475,7 +487,7 @@ body {
     margin-top: 30px;
     font-size: 0.7rem;
     text-transform: uppercase;
-    color: #51ACFB;
+    color: #51acfb;
 }
 
 .left-block__link {
@@ -483,6 +495,8 @@ body {
     color: black;
     text-decoration: none;
     font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
 }
 
 .left-block__btn {
@@ -525,9 +539,9 @@ body {
     padding: 0 0 15px 15px;
 }
 
-.team__info-descr, .team__name {
+.team__info-descr,
+.team__name {
     padding: 15px 0 0 15px;
-
 }
 
 .team__info-descr {
@@ -540,7 +554,7 @@ body {
 }
 
 .team__title span {
-    color: #51ACFB;
+    color: #51acfb;
 }
 
 .tips-trick__container {
@@ -548,7 +562,7 @@ body {
 }
 
 .team__info span {
-    color: #51ACFB;
+    color: #51acfb;
 }
 
 .company {
@@ -577,7 +591,7 @@ body {
 }
 
 .company__title span {
-    color: #51ACFB;
+    color: #51acfb;
 }
 
 .company__descr {
@@ -589,7 +603,8 @@ body {
     margin-bottom: 130px;
 }
 
-.company__card-title, .company__card-descr {
+.company__card-title,
+.company__card-descr {
     color: whitesmoke;
 }
 
@@ -607,13 +622,12 @@ body {
     min-height: 260px;
     width: 300px;
     border: none;
-    background-color: #B7BEC4;
+    background-color: #b7bec4;
     z-index: 9999;
-    
 }
 
 .aside-second {
-    background-color: #99A7B3;
+    background-color: #99a7b3;
 }
 
 .aside__contact-card svg {
@@ -632,14 +646,15 @@ body {
     margin-top: 40px;
 }
 
-.aside__contact-card p, a {
+.aside__contact-card p,
+a {
     padding: 0 0 0 30px;
     color: whitesmoke;
     text-decoration: none;
     font-weight: 400;
 }
 
-.aside__contact-card svg{
+.aside__contact-card svg {
     background-color: whitesmoke;
     padding: 10px;
 }
@@ -659,7 +674,129 @@ body {
     z-index: -999;
 }
 
-
 footer {
-    background-color: #001E38;
+    background-color: #001e38;
+    padding: 70px;
+}
+
+.footer__proposal {
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid grey;
+    padding: 50px 70px 50px 70px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footer__proposal h3 {
+    color: whitesmoke;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.footer__proposal button {
+    padding: 5px;
+    color: whitesmoke;
+    background-color: #dd5e15;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer__contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__social-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__social-icon li {
+    list-style: none;
+}
+
+.footer__card h6 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.footer__card a {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__title::after {
+    content: '';
+    display: block;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30px;
+    background: whitesmoke;
+}
+
+.footer__link::after {
+    content: '';
+    display: block;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 65%;
+    background: grey;
+}
+
+.footer__phone-link::before {
+    content: url(../img/telephone-fill.svg);
+    position: relative;
+    top: 5px;
+    margin-right: 20px;
+}
+
+/* Медиа запросы под популярные разрешения */
+
+@media only screen and (max-width: 1400px) {
+    .economic__card h5 {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 1220px) {
+    .services__cards {
+        padding: 0;
+        margin: 0 auto;
+    }
+    .services__img {
+        max-width: 290px;
+    }
+    .services__item {
+        max-width: 290px;
+    }
+
+    .hero__img-image {
+        max-width: 300px;
+    }
+    .nav-link,
+    .header__tel {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .special-offer {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .economic__card h5 {
+        padding: 5px 20px 5px 20px;
+        font-size: 1.6rem;
+    }
+    .economic__card p {
+        padding: 5px 20px 5px 20px;
+    }
 }
